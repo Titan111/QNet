@@ -5,6 +5,7 @@
 #include <algorithm>
 #include <functional>
 #include "tiny_dnn/tiny_dnn.h"
+
 using namespace std;
 using namespace tiny_dnn;
 using namespace tiny_dnn::layers;
@@ -103,4 +104,5 @@ int roulet(vector<double> x)
 	}
 };
 #endif
+
 
